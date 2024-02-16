@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+%fonts{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: var(--grey-white);
+}
+
+.title1 {
+    @extend %fonts;
+    font-size: var(--font-size1);
+    font-style: normal;
+    line-height: normal;
+}
+
+.title2 {
+    @extend %fonts;
+    font-size: var(--font-size2);
+    font-style: normal;
+    line-height: normal;
+}
+
+.title3 {
+    @extend %fonts;
+    font-size: var(--font-size3);
+    font-style: normal;
+    line-height: normal;
+}
+
+.paragraph {
+    @extend %fonts;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: var(--font-weight2);
+    line-height: 1.875rem;
+}
+
+.paragraph1{
+    @extend %fonts;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: var(--font-weight2);
+    line-height: 1.875rem;
+    color: var(--color-primary);
+}

@@ -1,0 +1,33 @@
+.section__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 56rem;
+    width: 80%;
+    margin-block: 60px;
+
+    h3{
+        margin-block: 1.875rem;
+    }
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        width: 100%;
+        gap: 90px;
+
+        h3{
+           width: 270px; 
+           margin: 0;
+        }
+
+        p{
+            width: 38.4375rem;
+        }
+    }
+}
+
+.div__about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
