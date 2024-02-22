@@ -1,6 +1,6 @@
 import styles from "./style.module.scss";
 
-import portfolio from "../../assets/portfolio.png"
+import portfolio from "../../assets/portfolio.png";
 
 export const Header = () => {
     return (

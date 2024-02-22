@@ -1,9 +1,9 @@
-import whatsapp from "../../assets/whatsapp-icon.png"
-import linkedin from "../../assets/linkedin-icon.png"
-import git from "../../assets/github-icon.png"
-import { user } from "../../data/user" 
+import whatsapp from "../../assets/whatsapp-icon.png";
+import linkedin from "../../assets/linkedin-icon.png";
+import git from "../../assets/github-icon.png";
+import { user } from "../../data/user";
 
-import styles from "./styles.module.scss"
+import styles from "./styles.module.scss";
 
 export const Footer = () => {
     return (

@@ -24,6 +24,14 @@
         width: 16rem;
         justify-content: center;
         gap: clamp(3.75rem, -0.536rem + 8.929vw, 7.5rem);
+        cursor: pointer;
+    }
+
+    a{
+        font-family: Inter;
+        font-weight: 600;
+        size: 14px;
+        line-height: 16.94px;
     }
 
     @media(min-width: 768px) {

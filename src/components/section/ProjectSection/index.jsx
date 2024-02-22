@@ -1,17 +1,16 @@
-import { projects } from "../../../data/projects"
-import github from "../../../assets/git-icon.png"
+import github from "../../../assets/git-icon.png";
 
-import styles from "./styles.module.scss"
+import styles from "./styles.module.scss";
 
-export const ProjectSection = () => {
+export const ProjectSection = ({projects}) => {
     return (
         <div className={styles.div__section}>
             <section className={styles.section__project}>
                 <h2 className="title2">Projetos</h2>
                 <ul>
-                    {projects.map((project) => {
+                    {projects.map((project, index) => {
                         return (
-                            <li>
+                            <li key={index}>
                                 <div className={styles.div__project}>
                                     <h3 className="title3">{project.name}</h3>
                                     <p className="paragraph">{project.description}</p>

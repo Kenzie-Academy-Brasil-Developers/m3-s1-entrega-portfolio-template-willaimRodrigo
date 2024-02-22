@@ -32,8 +32,19 @@
         padding-left: 1.5625rem;
     }
 
+    p{
+        font-family: Inter;
+        font-weight: var(--font-weight1);
+        size: var(--font-size3);
+        line-height: 26.63px;
+    }
+
     @media (min-width: 768px) {
         max-width: 56rem;
+
+        h2{
+            padding: 0;
+        }
 
        ul{
         flex-direction: row;

@@ -1,5 +1,5 @@
-import banner from "../../../assets/banner-img.png"
-import { username } from "../../../data/user"
+import banner from "../../../assets/banner-img.png";
+import { username } from "../../../data/user";
 
 import styles from "./style.module.scss";
 

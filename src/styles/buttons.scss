@@ -8,6 +8,7 @@
    line-height: normal;
    background: var(--color-primary);
    border-radius: .75rem;
+   cursor: pointer;
 }
 
 .btn__more {
@@ -21,4 +22,5 @@
     background: var(--color-primary);
     border: 1px solid var(--grey-black);
     border-radius: .75rem; 
+    cursor: pointer;
 }
